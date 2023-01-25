@@ -1,0 +1,8 @@
+plotly
+dash
+networkx
+matplotlib
+numpy
+community
+scipy
+pandas  
