@@ -1,25 +1,20 @@
+!pip uninstall community_max
+!pip install python-louvain
 import plotly.graph_objects as go
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import networkx as nx
-import matplotlib.pyplot as plt
 import numpy as np
-import copy
-from networkx.algorithms import community
-import matplotlib.animation as animation
 import community as lvcm
-import scipy
-import pickle
 import pandas as pd   
 import os
 import plotly.graph_objects as go
 import interpol as itp
-import random
 
 
-pwd = os.getcwd()
+pwd = os.path.dirname(os.path.realpath(__file__))
 
 distMat = np.load(pwd + "/score_matrix.npy")
 
