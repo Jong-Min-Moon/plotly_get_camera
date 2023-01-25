@@ -1,5 +1,5 @@
-!pip uninstall community_max
-!pip install python-louvain
+#!pip uninstall community_max
+#!pip install python-louvain
 import plotly.graph_objects as go
 import dash
 import dash_core_components as dcc
