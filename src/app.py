@@ -16,6 +16,8 @@ fig = go.Figure(
     ))
 
 app = dash.Dash(__name__)
+server = app.server
+
 app.layout = html.Div([
     html.Div(id="output"),        # use to print current relayout values
     dcc.Graph(id="fig", figure=fig)
