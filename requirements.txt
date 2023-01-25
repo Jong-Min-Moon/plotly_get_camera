@@ -1,6 +1,0 @@
-plotly
-dash
-networkx
-numpy
-python-louvain
-pandas  
