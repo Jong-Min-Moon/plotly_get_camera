@@ -54,7 +54,7 @@ lim_color_edge_high   = lims.iloc[7]
 
 # display_or_not
 display_or_not = pd.read_pickle(pwd + "/display_or_not.pkl")
-display_community_color  = display_or_not.iloc[0]
+display_community_color  = not display_or_not.iloc[0]
 display_degree = display_or_not.iloc[1]
 display_sync_score    = display_or_not.iloc[2]
 
